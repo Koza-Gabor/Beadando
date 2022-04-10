@@ -13,7 +13,7 @@ namespace LottoAdatFeltoltes
             LottoSzamContext db = new LottoSzamContext();
             if (!db.LottoSzamok.Any())
             {
-                string[] sorok = File.ReadAllLines(@"C:\Users\Attila\Desktop\2022LottoSzamok.csv");
+                string[] sorok = File.ReadAllLines(@"G:\Beadando\VikingLottoSzamok.csv");
                 LottoSzam lsz = null;
                 foreach (string sor in sorok)
                 {
